@@ -1,10 +1,10 @@
 <#Ej1----------------------------
 
-Write-Host("Â¡Hola Mundo!")
+Write-Host("¡Hola Mundo!")
 
 #Ej2----------------------------
 
-$string = "Â¡Hola Mundo!"
+$string = "¡Hola Mundo!"
 
 Write-Host $string
 
@@ -12,7 +12,7 @@ Write-Host $string
 
 $Name = Read-Host -Prompt "Cual es tu nombre? "
 
-Write-Host "Â¡Hola! $Name"
+Write-Host "¡Hola! $Name"
 
 #Ej4----------------------------
 
@@ -71,6 +71,6 @@ Write-Host "Tu Indice de masa corporal es:" $Imc
 $cociente = $Num1/$Num2
 $resto = $Num1%$Num2
 
-Write-Host "La divisiÃ³n resultande de dividir" $Num1 "entre" $Num2 "da un cociente" $cociente "y un resto" $resto
+Write-Host "La division resultande de dividir" $Num1 "entre" $Num2 "da un cociente" $cociente "y un resto" $resto
 
 #>
